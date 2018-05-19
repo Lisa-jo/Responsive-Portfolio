@@ -1,5 +1,4 @@
 
-
 body {
 
     box-sizing: border-box;
@@ -17,8 +16,6 @@ body {
     
 
 }
-
-
 
 header {
 
@@ -86,7 +83,7 @@ header {
 
 .nav {
 
-    margin-left: 720px;
+    margin-left: auto;
 
     margin-top: 0px;
 
@@ -537,4 +534,53 @@ footer {
 
     padding-top: 12px;
 
+}
+
+
+@media screen and (max-width: 980px) {
+    img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .nav {
+        margin-left: 600px;
+    }
+
+    .banner-1, .banner-2, .banner-3, .banner-4, .banner-5 {
+        width:180px;
+    }
+
+    .banner-2, .banner-4 {
+        margin-left:280px;
+    }
+
+    .banner-3, .banner-4 {
+        margin-top:483px;
+    }
+
+    .banner-5 {
+        margin-top:232px;
+        margin-left:540px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        width: 150px;
+        height: 150px;
+    }
+    .nav {
+        margin-left: 400px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    img {
+        width: 110px;
+        height: 110px;
+    }
+    .nav {
+        margin-left: 300px;
+    }
 }
